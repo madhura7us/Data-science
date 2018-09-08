@@ -1,2 +1,2 @@
 # Data-science
-Using plotting tools in R
+Projects related to collection, analysis and visualization of data using R, Apache Spark, and Hadoop
