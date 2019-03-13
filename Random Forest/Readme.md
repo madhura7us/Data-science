@@ -1,4 +1,5 @@
 Algorithm 
+
 -Choose T—number of trees to grow 
 -Choose m<M (M is the number of total features)
 -number of features used to calculate the best split at each node
@@ -21,10 +22,12 @@ Implementation details
 10. After this we have new label list and ground truth, we calculate true positive, true negative , false positive, false negative, and using that we measure accuracy, precision and recall and f- measure. 
 
 Parameter selection 
+
 1. We use K FOLD to split train data and test data 
 2. We split our train data into further small data set, here number of small dataset is preferred to be odd, because while testing the result will be from odd number of list for single test data, which will not bring any tie condition during majority voting 
 3. Number of attributes chosen randomly, are less than total number of attributes. 
  
 Handling continuous and categorical features 
+
 A major advantage of decision trees is that categorical values are treated as any other value. 
 The only change we made for processing continuous and categorical values was in the comparison condition (which is set to ‘>=’ for continuous and ‘==’ for categorical values respectively). 
