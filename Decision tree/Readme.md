@@ -14,6 +14,7 @@ Implementation details
 7. Measure the performance 
  
 Parameter selection 
+
 The only parameter is the number of folds to use 
 
 Handling continuous and categorical features 
@@ -24,4 +25,5 @@ Best feature
 Our evaluation function is the gini index which can be used to decide the best features. The lower the gini index, the better the split. So features with least gini can be considered to be the best features. 
 
 Post-processing 
+
 There is no such post-processing required. We just use cross validation.
