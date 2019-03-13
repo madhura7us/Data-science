@@ -50,8 +50,7 @@ for trainIndex , testIndex in kf.split(vector):
     testLabel = pTestData[:,-1]
     list(np.int_(testLabel))
     testData = pTestData[:,:-1]
-#     t = testData.tolist()
-#     print(t)
+
     trainDataDf = pd.DataFrame(trainData)
     groupData = trainDataDf.groupby(len(data.columns)-1)
 #     print("here" , groupData[:])
