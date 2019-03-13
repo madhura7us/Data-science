@@ -1,2 +1,2 @@
 # Data-science
-Projects related to collection, analysis and visualization of data using R, Apache Spark, and Hadoop
+Projects related to data science in Python, R, Hadoop, etc. including analysis and visualization.
