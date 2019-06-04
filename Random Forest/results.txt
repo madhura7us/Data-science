@@ -1,0 +1,27 @@
+Here are the results with differing number of trees in the forest:
+
+Tree = 1 (basically a decision tree implementation)
+
+          Dataset 1           Dataset 2
+Accuracy	89.4360902255639	  63.640148011100834
+Precision	85.54969657927658	  47.49754901960783
+Recall	  85.43406200084692	  44.05516632490317
+F measure	85.35238369353576	  44.48978574495403
+
+
+Trees = 3
+    
+          Dataset 1           Dataset 2
+Accuracy	92.78822055137844	  67.77520814061054
+Precision	93.0714276561353	  54.41841491841492
+Recall	  87.25148049217844	  43.44411217437534
+F measure	89.91985611531734	  47.616850449008226
+
+
+Trees = 5
+
+          Dataset 1           Dataset 2
+Accuracy	92.96679197994987	  67.32654949121184
+Precision	91.07783608195902	  54.992007992008
+Recall	  88.8930653111826	  46.30023339233866
+F measure	89.87251955251989	  48.579192231354774
