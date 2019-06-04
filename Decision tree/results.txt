@@ -1,0 +1,13 @@
+Here are the weighted results from K=10:
+
+Dataset 1:
+Accuracy = 0.924
+Precision = 0.914
+Recall = 0.885
+F measure = 0.897
+
+Dataset 2:
+Accuracy = 0.638
+Precision = 0.481
+Recall = 0.490
+F measure = 0.478
